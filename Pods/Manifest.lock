@@ -1,0 +1,27 @@
+PODS:
+  - AppCenter (3.1.0):
+    - AppCenter/Analytics (= 3.1.0)
+    - AppCenter/Crashes (= 3.1.0)
+  - AppCenter/Analytics (3.1.0):
+    - AppCenter/Core
+  - AppCenter/Core (3.1.0)
+  - AppCenter/Crashes (3.1.0):
+    - AppCenter/Core
+  - OneSignal (2.12.6)
+
+DEPENDENCIES:
+  - AppCenter
+  - OneSignal (< 3.0, >= 2.11.2)
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+    - OneSignal
+
+SPEC CHECKSUMS:
+  AppCenter: a1c30c47b7882a04a615ffa5ab26c007326436d8
+  OneSignal: a6df91542d1cf133b9dd19d89f2b533d8f2d3163
+
+PODFILE CHECKSUM: 3dcf8e9b038a11aa24257ab21defe8bec9cac7b3
+
+COCOAPODS: 1.8.4
